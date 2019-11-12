@@ -6,7 +6,7 @@ export const useDarkMode = () => {
 
     useEffect (() => {
         setDarkMode(!darkMode);
-        console.log("useEffect from useDarkMode.jsx and setDarkMode is", darkMode);
+        console.log("useEffect from useDarkMode.js and setDarkMode is", darkMode);
 
     }, []);
 
